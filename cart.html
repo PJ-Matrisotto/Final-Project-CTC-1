@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenSational Shoes Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" async></script>
+</head>
+<body>
+    <header>
+        
+        <div class="topnav"> 
+            <img id="logo" src="logo.png" alt="logo">
+            <p>ZenSational Shoes</p>
+            <a  href="index.html">New Arrivals</a>
+            <a href="#">Men's</a>
+            <a href="#">Women's</a>
+            <a href="#">Sale!</a>
+            <a class="active" href="cart.html"><img id="cart" src="ShopC.png" alt="cart"></img></a>
+            <input type="text" placeholder="Search"></input>
+            
+        </div>
+    </header>
+    <div class="art_logo"><img src="art_logo.png" alt="art_logo"> </div>
+    
+    <form id="cart" name="cart" method="get">
+      <table id="orderTable">
+       <caption>Product Order</caption>
+       <tr>
+          <td colspan="3">
+          </td>
+       </tr>
+       <tr>
+          <td>
+        </tr>
+        <tr>
+           <td>
+              <label for="model">Shoe type</label>
+              <select name="model" id="model">
+               <option value="00.0" selected>Select Shoe</option>
+                 <option value="90">Purple Shoe ($90)</option>
+                 <option value="150">Cyan Shoes ($150)</option>
+                 <option value="200">Black and brown open toe($200))</option>
+              </select>   
+          </td>
+          <td class="rightA">
+             <label for="qty">Qty</label>
+             <select name="qty" id="qty">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+             </select>   
+          </td>                 
+          <td class="rightA">
+            <label for="size">Size</label>
+            <select name="Size" id="size">
+               <option value="1" selected>10</option>
+               <option value="2">11</option>
+               <option value="3">12</option>
+               <option value="4">13</option>
+               <option value="5">14</option>
+               <option value="6">15</option>
+               <option value="7">16</option>
+               <option value="8">17</option>
+               <option value="9">18</option>
+               <option value="10">19</option>
+            </select>   
+         </td>             
+          
+       </tr>
+       <tr>
+          <td colspan="2"> 
+             <fieldset>
+                <legend>Protection Plan</legend>
+                <label><input type="radio" id="plan_0" name="protection" value=0.00 checked /> No protection plan ($0.00 )</label>
+                <label><input type="radio" id="plan_1" name="protection" value=20.00 /> 1-year protection plan ($20 )</label>   
+                <label><input type="radio" id="plan_2" name="protection" value=40.00/> 2-year protection plan ($40 )</label> 
+                <label><input type="radio" id="plan_3" name="protection" value=60.00  /> 3-year protection plan ($60 )</label>
+             </fieldset>
+             <td colspan="2"> 
+               <fieldset>
+                  <legend>Shipping</legend>
+                  <label><input type="radio" id="shipping_0" name="shipping" value="0.00" checked /> Free shipping </label>
+                  <label><input type="radio" id="shipping_1" name="shipping" value="15" /> 2 day fast shipping ($15)</label>   
+                  <label><input type="radio" id="shipping_2" name="shipping" value="20" />  Next day express shipping($20)</label> 
+               </fieldset>
+             <input type="hidden" id="protectionName" name="protectionName" />
+             <input type="hidden" id="shipName" name="shipName" />
+          </td>
+         
+          
+          
+       </tr>
+          <td colspan="2" class="rightA">Initial Cost
+            
+            <input type="text" name="initialCost" id="initialCost" size="10" readonly />
+         </td> 
+         <td colspan="2" class="rightA">Protection Cost 
+            <input type="text" name="protectionCost" id="protectionCost" size="10" readonly />
+         </td>  
+         <td colspan="2" class="rightA">Shipping Cost 
+             <input type="text" name="shipCost" id="shipCost" size="10" readonly />
+          </td>       
+       <tr>
+          <td colspan="2" class="rightA">Subtotal</td>
+          <td class="outcell">
+             <input type="text" name="subtotal" id="subtotal" size="10" readonly />
+          </td>
+       </tr>
+
+       <tr>
+          <td colspan="2" class="rightA">Tax (5%)</td>
+          <td>
+             <input type="text" name="salesTax" id="salesTax" size="10" readonly />
+          </td>
+       </tr>
+
+       <tr>
+          <td colspan="2" class="rightA">TOTAL</td>
+          <td>
+             <input type="text" name="totalCost" id="totalCost" size="10" readonly />
+          </td>
+       </tr>
+    </table>
+    <input type="submit" id="buttonAdd" value="add to cart" />
+
+  </form>
+</body>
+</html>

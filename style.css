@@ -1,0 +1,106 @@
+html{background-color: rgb(121, 221, 160);}
+.topnav{overflow: hidden;background-color:rgb(131, 155, 228) ;color: rgb(122, 9, 214);}
+.topnav a{float: left;text-align: center;padding: 14px 16px;text-decoration: none;font-size: 20px;display: block;background-color: aquamarine;}
+.topnav a:hover{background-color: blue;color: white;}
+.topnav a.active{background-color: cornflowerblue;}
+.topnav input[type=text]{float: right;padding: 6px;border:solid black 1px;margin-top: 8px;margin-right: 16px;font-size: 20px;}
+.topnav img#logo{display: inline;width: 5%;height: 5%;padding: 0%;}
+.topnav img#cart{display: block;width: 23px;height: 23px;}
+.art_logo{display: block; width: 5%;height: 5%;padding-left: 450px;}
+
+.card-1 img{display: block;float: left;width: 500px;}
+.card-2 img{display: block;float: left;width: 500px;}
+.card-3 img{display: block;float: left;width: 500px;}
+
+.card-1 button{display: block;float: left;margin-top: 200px;margin-left: 5px;margin-right: 5px;background-color: blueviolet;color: white}
+.card-2 button{display: block;float: left;margin-top: 200px;margin-left: 5px;margin-right: 5px;background-color: cyan;}
+.card-3 button{display: block;float: left;margin-top: 200px;margin-left: 5px;margin-right: 5px;background-color: black;color: white};
+div#checkout{display: block;margin-top:500px;}
+
+
+table#orderTable {
+    margin: 15px;
+    width: 95%;
+    border-collapse: collapse;
+ }
+ 
+ form#orderForm fieldset {
+    border: none;
+    margin-left: -10px;
+ }
+ 
+ form#orderForm input[type="text"] {
+    background-color: rgba(240, 233, 222, 0.5);
+ }
+ 
+ table#orderTable caption {
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-align: left;
+    caption-side: top;
+    margin-bottom: 20px;
+ }
+ 
+ 
+ table#orderTable td {
+    height: 30px;
+    vertical-align: top;
+ }
+ 
+ form#orderForm input#orderDate {
+    text-align: left;
+ }
+ 
+ form#orderForm input[type="text"] {
+    color: rgb(101, 101, 101);
+ }
+ 
+ form#orderForm select {
+    display: inline-block;
+    margin-left: 10px;
+    color: rgb(101, 101, 101);
+ }
+ 
+ table#orderTable tr:first-of-type {
+    border-bottom: 1px solid rgb(151, 151, 151);
+ }
+ 
+ table#orderTable tr td:last-of-type input {
+    text-align: right;
+    border: none;
+ }
+ 
+ table#orderTable tr:nth-of-type(3) {
+    border-bottom: 1px solid rgb(151, 151, 151);
+ }
+ 
+ table#orderTable tr:nth-of-type(2) td, table#orderTable tr:nth-of-type(4) td {
+    padding-top: 15px;
+ }
+ 
+ table#orderTable tr:nth-of-type(5) td {
+    border-bottom: 6px double rgb(151, 151, 151);
+ }
+ 
+ table#orderTable tr:last-of-type td {
+    padding-top: 15px;
+ }
+ 
+ table#orderTable td.rightA {
+    text-align: right;
+    padding-right: 10px;
+ }
+ 
+ form#orderForm fieldset label {
+    display: block;
+ }
+ 
+ form#orderForm input#buttonAdd {
+    display: block;
+    width: 120px;
+    height: 35px;
+    margin: 15px auto;
+    background-color: rgba(232, 218, 201, 0.8);
+    font-size: 1.3em;
+    border-radius: 20px;}
