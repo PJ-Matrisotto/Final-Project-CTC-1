@@ -1,4 +1,4 @@
-html{background-color: rgb(121, 221, 160);}
+html{background-color: white;}
 .topnav{overflow: hidden;background-color:rgb(131, 155, 228) ;color: rgb(122, 9, 214);}
 .topnav a{float: left;text-align: center;padding: 14px 16px;text-decoration: none;font-size: 20px;display: block;background-color: aquamarine;}
 .topnav a:hover{background-color: blue;color: white;}
