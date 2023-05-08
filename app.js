@@ -69,7 +69,7 @@ function calcOrder() {
    cartForm.elements.subtotal.value = formatNumber(initialCost + pCost + sCost, 2);
 
    //Sales Tax
-   var salesTax = parseFloat(0.05 * (initialCost + pCost+sCost));
+   var salesTax = parseFloat(0.05 * (initialCost + pCost + sCost));
    cartForm.elements.salesTax.value = formatNumber(salesTax, 2);
 
 
